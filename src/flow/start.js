@@ -30,3 +30,19 @@ console.log(sumTest(1,'2'))
  * Crtl+shift+P，输入setting.json
  * "javascript.validate.enable": false
  */
+
+/**
+ * 编译移除类型注解，防止运行出错（a: number,b: number）
+ * 方法一：使用官方的案例 安装 yarn add flow-remove-types --dev
+ * 编译代码到指定目录 yarn  flow-remove-types src -d dist
+ * 主要是通过添加类型注解，让flow进行校验，然后再通过flow-remove-types移除不属于js的语法，达到使用的效果
+ * 类似于加入了编译环节
+ * 方法二：使用babel
+ * 添加babel yarn add @babel/core @babel/cli @babel/preset-flow --dev
+ * 添加.babelrc 配置文件
+ * 编译输出yarn babel src -d dist
+ * 
+ * 
+ * 
+ * 
+ */
