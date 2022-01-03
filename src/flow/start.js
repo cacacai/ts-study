@@ -7,7 +7,7 @@ function sumTest (a: number,b: number){
 }
 
 console.log(sumTest(1,2))
-console.log(sumTest(1,'2'))
+//console.log(sumTest(1,'2'))
 
 
 //flow使用方法

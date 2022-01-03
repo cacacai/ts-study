@@ -11,5 +11,8 @@
     "@babel/preset-flow": "^7.16.7",
     "flow-bin": "^0.168.0",
     "flow-remove-types": "^2.168.0"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
   }
 }
