@@ -4,7 +4,7 @@ const hello = (name:string,num: number) => {
     console.log(`hello ${name}`)
 }
 
-hello('TypeScript','12')
+hello('TypeScript',12)
 
 
 
